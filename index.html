@@ -4,19 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="container">
-        <img src="/imagenes/fondo.jpg" alt="Imagen de bioma">
-        <div class="form">
-            <legend> Sign-Up</legend>
-            <label for="user_email">email adress</label>
-            <input type="email" id="user_email" name="email">
-            <label for="user_password">password</label>
-            <input type="password" id="user_password" name="password">
-            <button type="submit">Create Account</button>
-        </div>
+        <img src="imagenes/fondo.jpg" alt="Imagen de bioma">
+        <form action="#" method="post">
+                <h1>Register</h1>
+                <label for="first_name">First name</label>
+                <input type="text" id="first_name" name="first_name">
+                <label for="last_name">Last name</label>
+                <input type="text" id="last_name" name="last_name">
+                <label for="number_phone">Phone number</label>
+                <input type="text" id="number_phone" name="number_phone">
+                <label for="user_email">Email adress</label>
+                <input type="email" id="user_email" name="email">
+                <label for="user_password1">Password</label>
+                <input type="password" id="user_password1" name="password">
+                <label for="user_password2">Repeat password</label>
+                <input type="password" id="user_password2" name="password2">
+                <button class="send" type="submit">Create Account</button>
+        </form>
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
