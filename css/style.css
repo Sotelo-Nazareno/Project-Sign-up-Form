@@ -42,7 +42,11 @@ label{
 input{
     padding: 5px 100px;
     border-radius: 10px;
+}
 
+input:focus{
+    border: solid 1px rgb(84, 84, 158);
+    outline: none;
 }
 
 input:invalid{
